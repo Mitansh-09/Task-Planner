@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Task Planner</h2>
+
+  <div class="top-actions">
+    <button id="themeToggle">🌙 Toggle Theme</button>
+  </div>
+
+  <div class="input-row">
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <select id="prioritySelect">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <button id="addBtn">Add Task</button>
+  </div>
+
+  <div class="filters">
+    <button data-filter="all">All</button>
+    <button data-filter="completed">Completed</button>
+    <button data-filter="pending">Pending</button>
+  </div>
+
+  <button id="clearAll" class="clear-btn">Clear All Tasks</button>
+
+  <ul id="taskList"></ul>
+  <p id="emptyMsg" class="empty">No tasks added yet 🚀</p>
+
+  <div class="stats">
+    Completed: <span id="completed">0</span> |
+    Pending: <span id="pending">0</span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
