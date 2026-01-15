@@ -2,7 +2,7 @@
 # Task Planner:
 
 A fully functional Task Planner web application built using HTML, CSS, and JavaScript.  
-This project demonstrates strong frontend fundamentals including DOM manipulation**, state management, and localStorage persistence** — all without using any backend or frameworks.
+This project demonstrates strong frontend fundamentals including DOM manipulation, state management, and localStorage persistence** — all without using any backend or frameworks.
 
 ---
 
